@@ -1,0 +1,317 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Dheeraj Kalgutkar
+Updated: November 2016
+Notes:	 Hand coded for Digital Academy Training
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+li{
+    display:inline;
+    padding-right: 10px;
+    padding-bottom:  2px ;
+    padding-top: 6px;
+}
+.footer{
+	padding-top: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+
+  /* This would be default font style for all the text on the webpage if not explicitly stated otherwise*/
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.glow {
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*padding: 10px;*/
+
+  font: normal 20px/normal ;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.glow:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput {
+   	width: 200px;
+   }
+
+   .navbar-brand {
+   	padding: 13px 15px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 70px;
+
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px;  }
+/*
+#slide1 {
+	background: url('../../images/Carousel/1.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+*/
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+.how{
+	padding-top: 30px;
+	background-color: #0099ff;
+}
+.row{
+	padding-top: 30px;
+}
+.img-circle{
+	height:200px;
+	width:200px;
+}
+#moreInfo{
+	background-color: #23B7E3;
+font-family: 'Dosis', sans-serif;
+}
+/* Scrollspy style */
+.ScrollSpy{
+      position: relative;
+	  padding-top: 100px;
+	  height: auto;
+    	overflow-y: scroll;
+  }
+#myScrollspy{
+	border-bottom: 1px solid red;
+    background: #ddd;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+ /* Scrollspy style Ends*/
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+	.thumbnail .price {
+		font-size: 14px;
+	}
+
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+/*
+	#slide1 {
+		background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+	}
+*/
+	.carousel-caption {
+		font-size: 16px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+/*
+	#slide1 {
+		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+*/
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}

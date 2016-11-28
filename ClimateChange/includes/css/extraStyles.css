@@ -1,0 +1,271 @@
+/* video*/
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+}
+section.definition_teaser video, section.definition_teaser .background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.definition_teaser video {
+  /*display: none;*/
+}
+
+
+/*module_title */
+.module_title{
+  letter-spacing: -.04em;
+  font-size: 2.08em;
+  margin-bottom: 0.35em;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* module styles */
+.module header {
+  margin-bottom: 1em;
+  position: relative;
+}
+.module {
+  text-align: center;
+  position: relative;
+}
+.module {
+  padding: 3.3em 0 3.8em;
+  position: relative;
+}
+/* module styles */
+
+/* definition_teaser module styles */
+section.definition_teaser .definition:hover {
+  border-color: white;
+}
+section.definition_teaser .definition .title {
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+}
+@media only screen and (max-width: 580px) {
+    #video { display:none; }
+    #video_ele { display:none; }
+    .glow{
+      font-size: 18px;
+    }
+}
+section.definition_teaser {
+  background-color: #205063;
+  overflow: hidden;
+  max-height: 600px;
+}
+@media (min-width: 769px) {
+
+  section.definition_teaser {
+    max-height: 500px;
+  }
+  section.definition_teaser .definition {
+    margin: 0 10px 20px;
+    width: 148px;
+    height: 148px;
+  }
+  section.definition_teaser .definition:hover .hover_title {
+    display: inline-block;
+  }
+  section.definition_teaser .definition:hover .title {
+    display: none;
+  }
+  section.definition_teaser .definition .title {
+    font-size: 1.5em;
+  }
+  .module {
+   padding: 5em 0 5.3em;
+ }
+}
+@media (min-width: 1024px) {
+  /* line 4, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser {
+    max-height: 610px;
+    padding: 6em 0;
+  }
+  section.definition_teaser .definition {
+    margin: 0 10px 20px;
+    width: 200px;
+    height: 200px;
+  }
+  section.definition_teaser .definition .title {
+    font-size: 1.9em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser {
+    max-height: 850px;
+    padding: 8em 0;
+  }
+}
+/* line 21, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definitions_container {
+  text-align: center;
+  margin-bottom: 4.16667%;
+}
+/* line 24, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definitions_container a:hover {
+  text-decoration: none;
+}
+/* line 28, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+/*
+section.definition_teaser video, section.definition_teaser .background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*/
+/* line 33, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser video {
+/*  display: none;*/
+}
+@media (min-width: 600px) {
+  /* line 33, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser video {
+    display: block;
+    width: 120%;
+  }
+  section.definition_teaser .definition .title {
+    font-size: 1.1em;
+  }
+  /* line 39, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser video {
+    /*display: none;*/
+  }
+}
+@media (min-width: 1024px) {
+  /* line 33, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser video {
+    width: 105%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 33, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser video {
+    width: 102%;
+  }
+}
+@media (min-width: 1700px) {
+  /* line 33, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser video {
+    width: 101%;
+  }
+}
+/* line 53, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .background_image {
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 59, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .background_image img {
+  height: 100%;
+}
+@media (min-width: 600px) {
+  /* line 63, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .background_image {
+    display: none;
+  }
+}
+/* line 69, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .module_title {
+  color: white;
+}
+/* line 72, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition_pairs {
+  display: inline-block;
+}
+
+/* line 82, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  border: 5px solid #BAD7E2;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 0 .5em 1em;
+}
+@media (min-width: 769px) {
+  /* line 82, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition {
+    margin: 0 10px 20px;
+    width: 148px;
+    height: 148px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 82, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition {
+    margin: 0 10px 20px;
+    width: 200px;
+    height: 200px;
+  }
+}
+/* line 101, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition:hover {
+  border-color: white;
+}
+@media (min-width: 769px) {
+  /* line 104, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition:hover .hover_title {
+    display: inline-block;
+  }
+  /* line 107, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition:hover .title {
+    display: none;
+  }
+}
+/* line 112, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition .title {
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+}
+@media (min-width: 600px) {
+  /* line 112, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition .title {
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 769px) {
+  /* line 112, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition .title {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 112, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+  section.definition_teaser .definition .title {
+    font-size: 1.9em;
+  }
+}
+/* line 126, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-top: .5em;
+  margin-right: 0;
+}
+/* line 134, /websites/jpl/rails/climate-prod/app/assets/stylesheets/public/partials/_definition_teaser.scss */
+section.definition_teaser .definition .hover_title {
+  display: none;
+  width: 90%;
+  vertical-align: middle;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+/* END definition_teaser module styles */
